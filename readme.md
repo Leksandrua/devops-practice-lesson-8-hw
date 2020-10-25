@@ -53,6 +53,7 @@ ansible-playbook -b -i [inventory file] playbook.yml --vault-password-file [vaul
 ```
 
 Example
+
 ansible-playbook -b -i inventory playbook.yml --vault-password-file .ansible_vault_pass.txt
 
 
