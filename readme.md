@@ -54,7 +54,8 @@ ansible-playbook -b -i [inventory file] playbook.yml --vault-password-file [vaul
 
 Example
 
+```command
 ansible-playbook -b -i inventory playbook.yml --vault-password-file .ansible_vault_pass.txt
-
+```
 
 For more information on how to run this Ansible setup, please check this guide: [How to Use Ansible to Install and Set Up WordPress with LAMP on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-wordpress-with-lamp-on-ubuntu-18-04).
